@@ -243,7 +243,8 @@ h6,
   left: -260px;
   width: 260px;
   padding-top: 18px;
-  background: #228f30;
+  /* background: #196924 ; */
+  background: rgba(48, 126, 37, 0.9);
   transition: 0.4s;
 }
 
