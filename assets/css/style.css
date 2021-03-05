@@ -14,11 +14,11 @@ body {
 }
 
 a {
-  color: #4fa6d5;
+  color: #a2e3b0;
 }
 
 a:hover {
-  color: #45beff;
+  color: #a2e3b0;
   text-decoration: none;
 }
 
@@ -73,7 +73,7 @@ h6,
   z-index: 997;
   transition: all 0.5s;
   padding: 20px 0;
-  background: #1e4356;
+  background: #107e3a;
 }
 
 .pogoda {
@@ -87,7 +87,7 @@ h6,
 }
 
 #header.header-scrolled {
-  background: rgba(30, 67, 86, 0.8);
+  background: rgba(53, 128, 63, 0.7);
   height: 60px;
   padding: 10px 0;
 }
@@ -148,7 +148,7 @@ h6,
 .nav-menu a:hover,
 .nav-menu .active>a,
 .nav-menu li:hover>a {
-  color: #a2cce3;
+  color: #00ff37;
   text-decoration: none;
 }
 
@@ -182,13 +182,13 @@ h6,
   font-size: 14px;
   font-weight: 500;
   text-transform: none;
-  color: #1c3745;
+  color: #a2e3b0;
 }
 
 .nav-menu .drop-down ul a:hover,
 .nav-menu .drop-down ul .active>a,
 .nav-menu .drop-down ul li:hover>a {
-  color: #68A4C4;
+  color: #a2e3b0;
 }
 
 .nav-menu .drop-down>a:after {
@@ -243,7 +243,7 @@ h6,
   left: -260px;
   width: 260px;
   padding-top: 18px;
-  background: #1e4356;
+  background: #228f30;
   transition: 0.4s;
 }
 
@@ -264,7 +264,7 @@ h6,
 .mobile-nav a:hover,
 .mobile-nav .active>a,
 .mobile-nav li:hover>a {
-  color: #a2cce3;
+  color: #00ff37;
   text-decoration: none;
 }
 
@@ -319,7 +319,7 @@ h6,
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(30, 67, 86, 0.9);
+  background: rgba(60, 175, 69, 0.4);
   overflow: hidden;
   display: none;
 }
@@ -366,7 +366,7 @@ h6,
   top: 0;
   width: 130%;
   height: 96%;
-  background: #68A4C4;
+  background: #228f30;
   opacity: 0.3;
   z-index: 0;
   border-radius: 0 0 50% 50%;
@@ -1327,7 +1327,7 @@ section {
 }
 
 .portfolio .portfolio-item {
-  background: #1e4356;
+  background: #107e3a;
   overflow: hidden;
   min-height: 200px;
   position: relative;
@@ -1340,7 +1340,7 @@ section {
 
 
 .portfolio .portfolio-item table {
-  background: #1e4356;
+  background: #155a1e;
   overflow: hidden;
   min-height: 20px;
   position: relative;
@@ -2254,64 +2254,17 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #0b212d;
+  background: #0d3813;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
 }
 
-#footer .footer-newsletter {
-  padding: 50px 0;
-  background: #0d2735;
-}
 
-#footer .footer-newsletter h4 {
-  font-size: 24px;
-  margin: 0 0 20px 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 600;
-  color: #a2cce3;
-}
-
-#footer .footer-newsletter form {
-  margin-top: 30px;
-  background: #fff;
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 50px;
-}
-
-#footer .footer-newsletter form input[type="email"] {
-  border: 0;
-  padding: 4px;
-  width: calc(100% - 100px);
-}
-
-#footer .footer-newsletter form input[type="submit"] {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 20px;
-  margin: 3px;
-  background: #68A4C4;
-  color: #fff;
-  transition: 0.3s;
-  border-radius: 50px;
-}
-
-#footer .footer-newsletter form input[type="submit"]:hover {
-  background: #468db3;
-}
 
 #footer .footer-top {
-  background: #0d2735;
-  border-top: 1px solid #17455e;
-  border-bottom: 1px solid #123649;
+  background: #155a1e;
+
   padding: 60px 0 30px 0;
 }
 
@@ -2324,7 +2277,7 @@ section {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  color: #a2cce3;
+  color: #a2e3b2;
   font-weight: 600;
 }
 
@@ -2336,31 +2289,11 @@ section {
   color: #fff;
 }
 
-#footer .footer-top .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: #1e4356;
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 50%;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-}
-
-#footer .footer-top .social-links a:hover {
-  background: #68A4C4;
-  color: #fff;
-  text-decoration: none;
-}
 
 #footer .footer-top h4 {
   font-size: 18px;
   font-weight: 600;
-  color: #a2cce3;
+  color: #a2e3b0;
   position: relative;
   padding-bottom: 12px;
 }
@@ -2377,7 +2310,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #a2cce3;
+  color: #a2e3b0;
   font-size: 18px;
   line-height: 1;
 }
@@ -2400,7 +2333,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #a2cce3;
+  color: #a2e3b0;
 }
 
 #footer .footer-top .footer-contact {
@@ -2414,4 +2347,9 @@ section {
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
+}
+
+.telephon {
+  color: #a2e3b0;
+
 }
