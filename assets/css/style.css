@@ -43,7 +43,7 @@ h6,
   border-radius: 3px;
   right: 15px;
   bottom: 15px;
-  background: #68A4C4;
+  background: #155a1e;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -58,7 +58,7 @@ h6,
 
 .back-to-top:hover {
   color: #fff;
-  background: #85b6cf;
+  background: #249633;
   transition: background 0.2s ease-in-out;
 }
 
@@ -162,7 +162,7 @@ h6,
   visibility: hidden;
   padding: 10px 0;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0px 0px 30px rgba(134, 161, 127, 0.25);
   transition: ease all 0.3s;
 }
 
@@ -428,11 +428,12 @@ h6,
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #68A4C4;
+  border: 2px solid rgb(95, 148, 16);
+  background: #155a1e;
 }
 
 #hero .btn-get-started:hover {
-  background: #68A4C4;
+  background: #0d3813;
   color: #fff;
   text-decoration: none;
 }
@@ -507,7 +508,7 @@ h6,
   top: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../img/hero-bg.jpg") center top no-repeat;
+  background: linear-gradient(to right, rgba(0, 68, 11, 0.8), rgba(3, 90, 0, 0.6)), url("../img/hero-bg.jpg") center top no-repeat;
 }
 
 #hero-no-slider h2 {
@@ -535,7 +536,7 @@ h6,
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #68A4C4;
+  border: 2px solid #0e7700;
 }
 
 #hero-no-slider .btn-get-started:hover {
@@ -796,7 +797,7 @@ section {
 }
 
 .why-us .icon-box .title a:hover {
-  color: #68A4C4;
+  color: #68c47c;
 }
 
 .why-us .icon-box .description {
@@ -1322,31 +1323,35 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  border-color: #68A4C4;
-  color: #68A4C4;
+  border-color: #a2e3b2;
+  color: #257e3b;
 }
 
 .portfolio .portfolio-item {
-  background: #107e3a;
+  /* background: #107e3a; */
+  background: rgba(30, 255, 0, 0.15);
   overflow: hidden;
   min-height: 200px;
   position: relative;
   border-radius: 4px;
   margin: 0 0 30px 0;
-  color: white;
+  color: #444;
+
 }
 
 
 
 
 .portfolio .portfolio-item table {
-  background: #155a1e;
+  /* background: #155a1e; */
+  /* background: rgba(0, 0, 0, 0.1); */
   overflow: hidden;
   min-height: 20px;
   position: relative;
   border-radius: 4px;
   margin: 0 0 30px 0;
-  color: white;
+  color: #444;
+
 }
 
 .portfolio .portfolio-item table td {
@@ -1579,17 +1584,17 @@ section {
 .contact .info-box {
   color: #444;
   text-align: center;
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  box-shadow: 0 0 30px rgba(214, 216, 214, 0.6);
   padding: 20px 0 30px 0;
   margin-bottom: 30px;
 }
 
 .contact .info-box i {
   font-size: 32px;
-  color: #68A4C4;
+  color: #1f8b2e;
   border-radius: 50%;
   padding: 8px;
-  border: 2px dotted #a2cce3;
+  border: 2px dotted #0ec44b;
 }
 
 .contact .info-box h3 {
